@@ -1,3 +1,5 @@
+import Sports from './Sports'
+
 const React = require('react')
 const ReactDOM = require('react-dom')
 
@@ -18,6 +20,7 @@ function helloTemplate (props) {
   const name = 'whai 2021'
   return (
     <>
+      <Sports phrase="sports!"/>
       <Greeting name={name} />
       <h2>My pets are</h2>
       <ul>
